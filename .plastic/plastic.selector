@@ -1,0 +1,4 @@
+repository "robot-vacuum-cleaner@Hectic@cloud"
+  path "/"
+    smartbranch "/main/Generation" 
+     
