@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floar
+    uniqueID: 3548695755
+    locked: 0
+  - name: Dirt
+    uniqueID: 938739705
+    locked: 0
+  - name: Trash
+    uniqueID: 1085711361
+    locked: 0
+  - name: Character
+    uniqueID: 2324876295
+    locked: 0
+  - name: Small Objects
+    uniqueID: 2175275989
+    locked: 0
+  - name: Large Objects
+    uniqueID: 4168957547
+    locked: 0
+  - name: UI
+    uniqueID: 3596802717
+    locked: 0
