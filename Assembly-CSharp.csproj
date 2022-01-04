@@ -53,14 +53,15 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\UI\Joystick\Stick.cs" />
-    <Compile Include="Assets\Movement\Movement.cs" />
-    <Compile Include="Assets\UI\Joystick\StickOutline.cs" />
-    <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\Genearation\Generation.cs" />
     <Compile Include="Assets\Genearation\Room.cs" />
-    <Compile Include="Assets\Genearation\House.cs" />
+    <Compile Include="Assets\UI\Joystick\Stick.cs" />
+    <Compile Include="Assets\Movement\Movement.cs" />
     <Compile Include="Assets\Genearation\RoomsGraph.cs" />
+    <Compile Include="Assets\Genearation\House.cs" />
+    <Compile Include="Assets\UI\Joystick\StickOutline.cs" />
+    <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\Genearation\Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
