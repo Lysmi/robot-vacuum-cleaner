@@ -16,21 +16,11 @@ namespace Assets.Generation
             this.neightbors = new List<WallCorner>();
         }
 
+
         public WallCorner(Vector2 position)
         {
             this.position = position;
             this.neightbors = new List<WallCorner>();
-        }
-
-        public void DebugPaint(LineRenderer lineRenderer)
-        {
-            
-            foreach (var currNeightbor in neightbors)
-            {
-                lineRenderer.positionCount++;
-                lineRenderer.SetPosition(lineRenderer.positionCount - 1, currNeightbor.position);
-    
-            }
         }
     }
 }
