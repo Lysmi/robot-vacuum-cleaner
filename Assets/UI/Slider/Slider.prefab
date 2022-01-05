@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -622.935, y: -248.79633}
-  m_SizeDelta: {x: -1245.87, y: -497.5927}
+  m_AnchoredPosition: {x: 0, y: -0.002380371}
+  m_SizeDelta: {x: 0, y: 0.0047607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2470115288471378684
 CanvasRenderer:
@@ -86,26 +86,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3593203894870942917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044faafda67cb484dbab2de4d8183c44, type: 3}
+  m_Script: {fileID: 11500000, guid: 575a16b9c4301664d9dc6e6e7550d503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _field: {fileID: 1200019190928350294}
   _handle: {fileID: 5177095213139252718}
   OnEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Movement, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &4653520997593773759
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,8 +160,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44e5aa87e9749f844bce8dcac4aaa437, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d0ae46cffcd854b4992fab22b1bef3fa, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -262,7 +250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44e5aa87e9749f844bce8dcac4aaa437, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 820856edb0007d141889a774a679c731, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
